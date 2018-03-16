@@ -1,0 +1,30 @@
+body {
+  font-family: 'Montez', cursive;
+  text-align: center;
+  height:100%;
+  width: 100%;
+  background-color:skyblue;
+}
+.crystal-image {
+  margin: 2.5%;
+  width: 20%;
+  height: 20%;;
+}
+
+#gameInfoDiv {
+  background-color:navajowhite;
+  opacity:.8;
+  font-size:large;
+}
+
+#gamePlayDiv {
+  margin-top:-2%;
+  background-image:url("../images/background.jpg");
+}
+
+#randomNumberDiv {
+  padding-top:5%;
+  font-size: xx-large;
+  text-shadow: midnightblue 3px 5px;
+  color: navajowhite;
+}

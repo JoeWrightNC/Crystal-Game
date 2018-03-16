@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Crystal Game Time!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Montez" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+</head>
+
+
+<body>
+<header>
+  <h1>Crystal Game Time!</h1>
+</header>
+
+<div id="gameInfoDiv">
+  <p>
+    You will be given a random number at the start of the game.
+  </p>
+  <p>
+    There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.
+  </p>
+  <p>
+    You win the game bny matching your total score to the specified random number; you lose the game if your total score goes above the random number.
+  </p>
+  <p>
+    The value of each crystal is hidden from you until you click on it.
+  </p>
+  <p>
+    The game will keep track of your wins and losses, and each time you start a new game you will be given a new goal number and each crystal will have a new value.
+  </p>
+</div>
+<div id="gamePlayDiv">
+<div id="randomNumberDiv">
+  <h1>Number to Guess: <span id="number-to-guess"></span></h1>
+  <h1>Your total score is: <span id="scoreText"> </span></h1>
+  <h2>Wins:<span id="Wins"> </span></h2>
+  <h2>Losses:<span id="Losses"> </span></h2>
+</div>
+<div id="crystalsDiv">
+
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="./assets/javascript/game.js"></script>
+
+</body>
+</html>
