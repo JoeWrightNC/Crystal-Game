@@ -32,6 +32,9 @@ function newGame() {
 
 
 $("#crystalsDiv").on("click", ".crystal-image", function() {
+  var player = document.getElementById("gameMusic");
+  player.loop = false;
+  player.play();
   var crystalValue = ($(this).attr("data-crystalvalue"));
   crystalValue = parseInt(crystalValue);
   counter += crystalValue;

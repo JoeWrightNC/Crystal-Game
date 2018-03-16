@@ -3,7 +3,12 @@ body {
   text-align: center;
   height:100%;
   width: 100%;
-  background-color:skyblue;
+  background-color:midnightblue;
+}
+
+header {
+  color:navajowhite;
+  background-color: midnightblue;
 }
 .crystal-image {
   margin: 2.5%;
@@ -18,7 +23,7 @@ body {
 }
 
 #gamePlayDiv {
-  margin-top:-2%;
+  margin-top:-1%;
   background-image:url("../images/background.jpg");
 }
 
